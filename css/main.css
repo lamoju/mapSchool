@@ -28,6 +28,7 @@ div#headMenu{
 	background-color: rgba(128,128,128,0.3);
 	/*background-color: #474a56;*/
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	box-shadow: 5px 10px 18px #0b0b0d;
 }
 
 div#divLogo{
@@ -121,7 +122,7 @@ div#comoSist a{
 	font-family: 'Muli', sans-serif;
 	padding: 2.5% 5%;
 	transition-duration: 0.4s;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
+	box-shadow: 5px 10px 20px #0b0b0d;
 }
 
 div#comoSist a:hover{
@@ -139,9 +140,10 @@ div#comoSist img{
 }
 
 div#apresentacaoSite{
-	width: 38%;
+	width: 41%;
 	color: #DCDCDC;
 	margin-bottom: 8%;
+	color: white;
 }
 
 h1{
@@ -149,9 +151,8 @@ h1{
 	/*width: 65%;
 	margin-top: 5%;*/
 	color: white;
-	font-size: 2.5em;
+	font-size: 3.1em;
 	padding-left: 4%;
-	padding-bottom: 0.5%;
 	/*padding: 1% 0 1% 5%; 
 	background-color: rgba(0,0,0,0.5);*/
 	font-family: 'Fjalla One', sans-serif;
@@ -163,7 +164,7 @@ p{
 	font-family: 'Raleway', sans-serif;
 	padding-left: 10%; 
 	padding-bottom: 2%;
-	font-size: 1.1em;
+	font-size: 1.3em;
 }
 
 
@@ -208,6 +209,7 @@ section#quemSomos{
 	height: auto;
 	font-family: 'Raleway', sans-serif;
 	font-size: 1.1em;
+	line-height: 2em;
 	/*background-color: red;*/
 	margin-top: 4%; 
 }
@@ -294,23 +296,25 @@ input[type=text]:focus, input[type=email]:focus{ font-size: 1.2em;}
 /******Rodapé******/
 footer{
 	width: 100%;
-	height: 20rem;
+	height: 15rem;
 	/*color: #474a56;
 	background-color: #d3d5fd;*/
 	color: #ADFF2F;
 	/*background-color: #474a56;*/
 	/*background-color: rgba(128,128,128,0.3);*/
 	display: flex;
+	background-image: url("../imgs/textura1.jpg");
+	box-shadow: 2px 1px 10px 10px #0b0b0d;
 }
 
 div#midiaSocial{
 	width: 40%;
+	background-color: rgba(128,128,128,0.2);
 	/*background-color: red;*/
-	padding-top: 7%;
+	padding-top: 5%;
 	text-align: center;	
-	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
-	margin-left: 3%;
-	margin-right: 3%;
+	/*margin-left: 3%;
+	margin-right: 3%;*/
 }
 
 div#midiaSocial h3{ 
@@ -320,10 +324,10 @@ div#midiaSocial h3{
 
 div#divMenuRodape{
 	width: 40%;
+	background-color: rgba(128,128,128,0.2);
 	/*background-color: green;*/
 	text-align: center;
-	padding-top: 7%;
-	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-top: 5%;
 }
 
 ul#ulMenuRodape li, ul#ulTermosUso li{
@@ -352,9 +356,9 @@ ul#ulTermosUso li, ul#ulTermosUso li a{	display: block;}
 
 div#termosUso{
 	width: 40%;
+	background-color: rgba(128,128,128,0.2);
 	text-align: center;
-	padding-top: 7%;
-	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+	padding-top: 5%;
 }
 
 /***ANIMACAO***/
