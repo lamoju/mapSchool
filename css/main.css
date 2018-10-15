@@ -1,0 +1,367 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css?family=Muli');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+*{margin: 0; padding: 0; border:0;}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background-color: #fffbcb;
+	background-image: url("../imgs/Capturar_fundo2.jpg");
+	/*background-image: url("../imgs/map4.jpg");*/
+	background-image: url("../imgs/cinza2.jpg");
+	background-image: url("../imgs/fundo_cinza.png");
+	background-image: url("../imgs/textura1.jpg");
+}
+
+header{
+	width: 100%;
+	height: 7rem;	
+	/*background-color: pink;*/
+}
+
+div#headMenu{
+	width: 100%;
+	height: 6rem;
+	background-color: rgba(128,128,128,0.3);
+	/*background-color: #474a56;*/
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+div#divLogo{
+	width: 30%;
+	/*background-color: red;*/
+	float: left;
+	margin-left: 5%;
+}
+
+div#divLogo img{
+	/*width: 50%;
+	height: auto;*/
+	margin-bottom: 5%;
+	margin-top: 5%;
+	max-width: 100%;
+}
+/******MENUS******/
+
+nav#navMenu{
+	width: 40%;
+	float: right;
+	/*margin-right: 5%;*/
+	/*background-color: green;*/
+}
+
+ul#ulMenu{
+	margin-top: 7%;
+	list-style: none;
+}
+
+#ulMenu li{
+	display: inline-block;
+	/*background-color: orange;*/
+	margin-right: 7%;
+}
+
+#ulMenu li#user{
+	margin-right: 0;
+}
+
+#ulMenu li#user a{
+	padding: 8% 8%;
+	color: white;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
+	/*background-color: #a7d129;*/
+	transition-duration: 0.5s;
+	border: 1px solid #a7d129;
+}
+
+#ulMenu li#user a:hover{
+	background-color: #a7d129;
+	color: white;
+}
+
+#ulMenu li a{
+	text-decoration: none;
+	color: #474a56;
+	color: white;
+	font-size: 1.1em;
+	font-family: 'Muli', sans-serif;
+}	
+
+#ulMenu li a:hover{
+	/*border-bottom: 1px solid #a7d129;*/
+	color: #a7d129;
+}
+/*******FIM MENU******/
+
+div#comoSist{
+	/*background-color: orange;*/
+	width: 45%;
+	float: right;
+	margin-top: 3%;
+	margin-right: 5%;
+	text-align: center;
+	-webkit-animation-name: flutuando; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+	animation-name: flutuando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+div#comoSist a{
+	display: inline-block;
+	width: 50%;
+	background-color: #a7d129;
+	text-decoration: none;
+	color:  #474a56;
+	font-size: 1.1em;
+	font-family: 'Muli', sans-serif;
+	padding: 2.5% 5%;
+	transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
+}
+
+div#comoSist a:hover{
+	/*border-bottom: 7px solid #808080;*/
+	background-color: #bceb3c;
+}
+
+div#comoSist img{
+	clear: both;
+	width: 500px;
+	height: auto;
+	margin-bottom: 3%;
+	/*background-color: red;*/
+	max-width: 100%;
+}
+
+div#apresentacaoSite{
+	width: 38%;
+	color: #DCDCDC;
+	margin-bottom: 8%;
+}
+
+h1{
+	width: 21%;
+	/*width: 65%;
+	margin-top: 5%;*/
+	color: white;
+	font-size: 2.5em;
+	padding-left: 4%;
+	padding-bottom: 0.5%;
+	/*padding: 1% 0 1% 5%; 
+	background-color: rgba(0,0,0,0.5);*/
+	font-family: 'Fjalla One', sans-serif;
+	font-weight: normal;
+	margin-top: 18%;
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	padding-left: 10%; 
+	padding-bottom: 2%;
+	font-size: 1.1em;
+}
+
+
+/******Corpo******/
+div#container{
+	width: 100%;
+	/*margin-left: 10%;*/
+}
+
+div#divContato, div#divSistema, div#divFeedInfo{
+	width: 100%;
+	height: 50rem;
+}
+
+div#divFeedInfo{
+	background-color: #d3d5fd;
+	box-shadow: 2px 1px 10px 10px #d3d5fd;
+}
+
+div#divSobre{
+	width: 100%;
+	height: auto;
+	background-color: #bceb3c;
+	box-shadow: 2px 1px 10px 10px #bceb3c;
+	padding-top: 7%; 
+	padding-bottom: 7%; 
+}
+
+div#divSobre h1{
+	width: 18%;
+	font-size: 2.7em;
+	background-color: #474a56;
+	margin-top: 0;
+	padding-left: 5%; 
+	padding-top: 0.5%;  
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
+}
+
+section#quemSomos{
+	color: #474a56;
+	width: 90%;
+	height: auto;
+	font-family: 'Raleway', sans-serif;
+	font-size: 1.1em;
+	/*background-color: red;*/
+	margin-top: 4%; 
+}
+
+div#divSistema{
+	background-color: #555574;
+	box-shadow: 2px 1px 10px 10px #555574;
+}
+div#divContato{
+	/*background-color: #F8F8FF;
+	box-shadow: 2px 1px 10px 10px #F8F8FF;*/
+	background-color: #474a56;
+	box-shadow: 2px 1px 10px 10px #474a56;
+	padding-top: 7%;
+	color: white;
+}
+
+div#divContato h1{
+	width: 96%;
+	margin-top: 0; 
+	color: #F8F8FF;
+	/*background-color: pink;*/
+	text-align: center;
+	font-size: 1.5em;
+}
+
+/*Fomulário Contato*/
+
+#formContato{
+	width: 50%;
+	margin: 4% 25%;
+	/*background-color: blue;*/
+}
+#formContato p{
+	width: 90%;
+	/*border: 1px solid green;*/
+}
+
+#formContato input{
+	background-color: #474a56;
+	border-bottom: 1px solid #FFA500;
+	width: 90%;
+	color:white;
+	padding: 2% 1%;
+}
+
+textarea{
+	resize: none; 
+	font-family: 'Raleway', sans-serif;
+	background-color: #474a56;
+	border: 1px solid #FFA500;
+	color:white;
+	margin-top: 1%;  
+	padding: 1%;
+	font-size: 1.1em;
+	width: 90%;
+}
+
+input[type=text]:focus, input[type=email]:focus, textarea:focus{
+   	background-color: #474a56;
+   	color: #FF8C00;
+   	outline:none;
+}
+
+input[type=text]:focus, input[type=email]:focus{ font-size: 1.2em;}
+
+#formContato button{
+	background-color: #FF8C00;
+	padding: 2% 4%;
+	width: 20%;
+	color: white;
+	font-size: 1.2em;
+	font-weight: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-left: 10%;
+}
+
+#formContato button:hover{ background-color: #FFA500}
+#formContato button:focus{outline:none}
+
+/*Fim Fomulário Contato*/
+
+
+/******Rodapé******/
+footer{
+	width: 100%;
+	height: 20rem;
+	/*color: #474a56;
+	background-color: #d3d5fd;*/
+	color: #ADFF2F;
+	/*background-color: #474a56;*/
+	/*background-color: rgba(128,128,128,0.3);*/
+	display: flex;
+}
+
+div#midiaSocial{
+	width: 40%;
+	/*background-color: red;*/
+	padding-top: 7%;
+	text-align: center;	
+	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
+div#midiaSocial h3{ 
+	margin-bottom: 5%;
+	font-weight: normal;
+}
+
+div#divMenuRodape{
+	width: 40%;
+	/*background-color: green;*/
+	text-align: center;
+	padding-top: 7%;
+	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+ul#ulMenuRodape li, ul#ulTermosUso li{
+	list-style-type: none;
+	padding-bottom: 1%;
+}
+
+ul#ulMenuRodape li a, ul#ulTermosUso li a{
+	text-decoration: none;
+	color:#ADFF2F; 
+}
+
+ul#ulMenuRodape li a:hover{
+	/*border-bottom: 1px solid #d3d5fd;*/
+	color: white;
+}
+
+ul#ulTermosUso li a img{
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    padding: 3%
+}
+
+ul#ulTermosUso li, ul#ulTermosUso li a{	display: block;}
+
+div#termosUso{
+	width: 40%;
+	text-align: center;
+	padding-top: 7%;
+	box-shadow: 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/***ANIMACAO***/
+
+@keyframes flutuando{
+    0%   {left:0px; top:0px;}
+    50%  {bottom:50px; top:50px;} 
+    100% {left:0px; top:0px;}
+}
+/***FIMANIMACAO***/
