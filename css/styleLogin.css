@@ -7,6 +7,41 @@
 *{margin: 0; padding: 0; border:0;}
 
 body{
+	width: 100%;
 	font-family: 'Raleway', sans-serif;
 	background-color: #d3d5fd;
+	background-color: #eeeeee;
+}
+
+form{
+	width: 30%;
+	/*background: red;*/
+	margin-bottom: 10%;
+	color: #474a56;
+	font-size: 1.3em;
+}
+
+input{
+	background-color: #d3d5fd;
+	border-bottom: 1px solid #474a56;
+	width: 100%;
+	color: #474a56;
+	padding: 2% 1%;
+	font-size: 1.2em;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+   /*	background-color: #474a56;
+   	color: #FF8C00;*/
+   	outline:none;
+}
+
+button{
+	background-color: #FF8C00;
+	padding: 2% 4%;
+	width: 30%;
+	color: white;
+	font-size: 1.2em;
+	font-weight: center;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }

@@ -12,12 +12,12 @@ footer{
 	height: 15rem;
 	/*color: #474a56;
 	background-color: #d3d5fd;*/
-	color: #ADFF2F;
+	color: white;
 	/*background-color: #474a56;*/
 	/*background-color: rgba(128,128,128,0.3);*/
 	display: flex;
-	background-image: url("../imgs/textura1.jpg");
-	box-shadow: 2px 1px 10px 10px #0b0b0d;
+	background-color: #474a56;
+	box-shadow: 2px 1px 10px 10px #393e46;
 	/*box-shadow: 5px 1px 8px 10px #929aab;*/
 	position: absolute;
 	bottom: 0;
@@ -58,7 +58,7 @@ ul#ulMenuRodape li a, ul#ulTermosUso li a{
 
 ul#ulMenuRodape li a:hover{
 	/*border-bottom: 1px solid #d3d5fd;*/
-	color: white;
+	color: #a7d129;
 }
 
 ul#ulTermosUso li a img{

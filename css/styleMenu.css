@@ -9,7 +9,8 @@
 header{
 	width: 100%;
 	height: 6rem;	
-	background-image: url("../imgs/textura1.jpg");
+	/*background-image: url("../imgs/textura1.jpg");*/
+	background-color: #474a56;
 	/*background-color: pink;*/
 }
 
@@ -18,7 +19,7 @@ div#headMenu{
 	height: 6rem;
 	background-color: rgba(128,128,128,0.3);
 	/*background-color: #474a56;*/
-	box-shadow: 5px 10px 18px #0b0b0d;
+	box-shadow: 5px 2px 18px #393e46;
 }
 
 div#divLogo{
