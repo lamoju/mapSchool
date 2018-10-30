@@ -17,7 +17,7 @@ header{
 div#headMenu{
 	width: 100%;
 	height: 6rem;
-	background-color: rgba(128,128,128,0.3);
+	/*background-color: rgba(128,128,128,0.3);*/
 	/*background-color: #474a56;*/
 	box-shadow: 5px 2px 18px #393e46;
 }
@@ -39,7 +39,7 @@ div#divLogo img{
 /******MENUS******/
 
 nav#navMenu{
-	width: 40%;
+	width: 34%;
 	float: right;
 	/*margin-right: 5%;*/
 	/*background-color: green;*/

@@ -10,10 +10,10 @@ body{
 	font-family: 'Raleway', sans-serif;
 	background-color: #fffbcb;
 	background-image: url("../imgs/Capturar_fundo3.jpg");
-	/*background-image: url("../imgs/map4.jpg");*/
-	/*background-image: url("../imgs/cinza2.jpg");*/
-	/*background-image: url("../imgs/fundo_cinza.png");*/
-	/*background-image: url("../imgs/textura1.jpg");*/
+	background-image: url("../imgs/Capturar_fundo8.png");
+	background-image: url("../imgs/Capturar_fundo8.jpg");
+	/*background-image: url("../imgs/ssssssssssssssssssssssssssssssssss.jpg");*/
+	
 }
 
 header{
@@ -50,7 +50,7 @@ div#divLogo img{
 /******MENUS******/
 
 nav#navMenu{
-	width: 40%;
+	width: 35%;
 	float: right;
 	/*margin-right: 5%;*/
 	/*background-color: green;*/
@@ -141,18 +141,10 @@ div#comoSist img{
 	max-width: 100%;
 }
 
-div#apresentacaoSite{
-	width: 41%;
-	color: #DCDCDC;
-	margin-bottom: 8%;
-	color: #393e46;
-}
-
 h1{
 	width: 21%;
 	/*width: 65%;
 	margin-top: 5%;*/
-	color: white;
 	color: #393e46;
 	font-size: 3.1em;
 	padding-left: 4%;
@@ -160,14 +152,26 @@ h1{
 	background-color: rgba(0,0,0,0.5);*/
 	font-family: 'Fjalla One', sans-serif;
 	font-weight: normal;
-	margin-top: 18%;
+	margin-top: 22%;
 }
 
-p{
+div#apresentacaoSite{
+	width: 100%;
+	height: 7rem;
+	background-color: #929aab;
+	color: #DCDCDC;
+	color: white;
+	margin-top: 10%;
+	/*margin-bottom: 8%;*/
+	display: flex;
+  	align-items: center;
+  	justify-content: center;
+}
+
+div#apresentacaoSite p{
 	font-family: 'Raleway', sans-serif;
-	padding-left: 10%; 
 	padding-bottom: 2%;
-	font-size: 1.3em;
+	font-size: 1.5em;
 }
 
 
@@ -218,6 +222,13 @@ section#quemSomos{
 	margin-top: 4%; 
 }
 
+section#quemSomos p{
+	font-family: 'Raleway', sans-serif;
+	padding-left: 10%;
+	padding-bottom: 2%;
+	font-size: 1.3em;
+}
+
 div#divSistema{
 	background-color: #555574;
 	box-shadow: 2px 1px 10px 10px #555574;
@@ -250,6 +261,9 @@ div#divContato h1{
 #formContato p{
 	width: 90%;
 	/*border: 1px solid green;*/
+	padding-left: 10%;
+	padding-bottom: 2%;
+	font-size: 1.3em;
 }
 
 #formContato input{
@@ -286,7 +300,6 @@ input[type=text]:focus, input[type=email]:focus{ font-size: 1.2em;}
 	width: 20%;
 	color: white;
 	font-size: 1.2em;
-	font-weight: center;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 	margin-left: 10%;
 }

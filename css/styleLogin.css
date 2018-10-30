@@ -10,38 +10,117 @@ body{
 	width: 100%;
 	font-family: 'Raleway', sans-serif;
 	background-color: #d3d5fd;
-	background-color: #eeeeee;
+	background-color: #f7f7f7;
+}
+
+#divLogo img{
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 15%;
+	margin-bottom: 7%;
+	max-width: 100%;
+}
+
+#container{
+	width: 30%;
+	height: 33rem;
+	background-color: #474a56;
+	margin: 2% 35%;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 16px 0 rgba(0,0,0,0.15);
 }
 
 form{
-	width: 30%;
+	width: 80%;
 	/*background: red;*/
 	margin-bottom: 10%;
-	color: #474a56;
-	font-size: 1.3em;
+	margin-left: 9%;  
+	color: #d3d5fd;
+	font-size: 1em;
+}
+
+form p{
+	margin-bottom: 5%
 }
 
 input{
-	background-color: #d3d5fd;
-	border-bottom: 1px solid #474a56;
+	background-color: #474a56;
+	border-bottom: 1px solid #FF8C00;
+	/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.15);*/
 	width: 100%;
-	color: #474a56;
+	color: white;
 	padding: 2% 1%;
-	font-size: 1.2em;
+	margin-top: 2%;
+	font-size: 1.1em;
+	font-weight: normal;
 }
 
-input[type=text]:focus, input[type=password]:focus{
-   /*	background-color: #474a56;
-   	color: #FF8C00;*/
+input[type=text]:focus, input[type=password]:focus, button:focus{
    	outline:none;
 }
 
 button{
 	background-color: #FF8C00;
 	padding: 2% 4%;
+	margin-top: 6%;
 	width: 30%;
 	color: white;
 	font-size: 1.2em;
-	font-weight: center;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	float: right;
+	clear: both;
+}
+
+button:hover{ background-color: #FFA500}
+
+#esqueciSenha{
+	display: block;
+	font-size: 0.9em;
+	text-decoration: none;
+	margin-top: 6%;
+	color: white;
+	float: right;
+	clear: both;
+}
+
+#esqueciSenha:hover, #divCadastro a:hover{
+	color: #a7d129;
+}
+
+#divCadastro{
+	margin-top: 5%;
+	text-align:center;
+}
+
+#divCadastro a{
+	text-decoration: none;
+	color: white;
+}
+
+#divsVerticais{
+	margin-top: 43%;
+	display: flex;
+  	flex-wrap: nowrap;
+}
+
+div#ou{
+	margin-left: 4%;
+	margin-right: 4%;
+	color: white;
+}
+
+.barraVertical{
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color: white;
+    height: 1px;
+    position: relative;
+    top: .45em;
+}
+
+footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	text-align: center;
+	color: #474a56
 }

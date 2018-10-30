@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Quem se cadastra</title>
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+		#containerModal{ 
+			width: 50%;
+			height: 30rem;
+			display:flex;
+			background-color: #d3d5fd;
+		}
+
+		.divResponsavel{
+			width: 40%;
+			/*background-color: pink;*/
+		}
+
+		#divResponsavel{
+			margin-left: 10%;
+		}
+
+		#divResponsavel button{
+			padding: 2% 10%;
+		}
+
+		#divEscola button{
+			padding: 2% 20%;
+		}
+
+		button{
+			background-color: #d3d5fd;
+			border: 1px solid #474a56;
+			color: #474a56;
+			font-size: 1.2em;
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.15);
+			font-family: 'Raleway', sans-serif;
+			transition-duration: 0.5s;
+		}
+
+		button:hover{
+			background-color: #474a56;
+			color: white;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="containerModal">
+		<div id="divResponsavel" class="divResponsavel">
+			<img src="imgs/quadrado.jpg"><br>
+			<button type="button" value="responsavel" id="responsavel">Responsável</button>			
+		</div>
+
+		<div id="divEscola" class="divResponsavel">
+			<img src="imgs/quadrado.jpg"><br>
+			<button type="button" value="escola" id="escola">Escola</button>			
+		</div>
+	</div>
+
+</body>
+</html>
